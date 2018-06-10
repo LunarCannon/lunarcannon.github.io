@@ -3,24 +3,82 @@ html, body{
 }
 
 body {
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   display: flex;
   flex-direction:column;
+  background-color:#fff;
 }
 
+p{
+  font-size:1em;
+  color:#353433;
+}
+
+h1.feature-title{
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-size: 4em;
+}
+
+h3.featured-subtitle{
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-size:1.7em;
+}
+
+.button {
+  padding:10px 20px;
+  background-color:#eb9622;
+  color:#fff;
+  font-weight:400;
+  transition: all 0.2s ease;
+}
+.button:hover{
+  text-decoration:none;
+  background-color:#c37a15;
+  color:#fff;
+  transition: all 0.2s ease;
+}
+
+.button-gray{
+  background-color:#bbb;
+}
+.button-gray:hover{
+  background-color:#eee;
+}
+
+.feature-type{
+  font-size:1.15em;
+  font-weight:300;
+  text-align:justify;
+}
 .content {
     max-width:1170px;
     width:100%;
-    margin:auto;
+    margin: 30px auto;
     flex: 1 0 auto;
 }
 
-.footer {
+.content-container{
+  position: absolute;
+  top:calc(40% - 2em);
+
+  max-width:1170px;
+  width:100%;
+
+}
+
+/*-- Footer --*/
+.footer-content{
   max-width:1170px;
   width:100%;
   margin:auto;
-  flex-shrink: 0;
+  padding:20px 0px 20px;
 }
+.footer {
+  flex-shrink: 0;
+  color:#fff;
+  background-color:#353433;
+}
+
 /*-- General styling --*/
 
 .text-center {
@@ -38,4 +96,29 @@ body {
 .spacer-50 {
   margin-top: 50px;
 }
+
+.content-block-l{
+  padding:0px 25px 0px 15px;
+}
+
+.content-block-c{
+  padding:0px 20px 0px 20px;
+}
+
+.content-block-r{
+  padding:0px 15px 0px 25px;
+}
+
+/*-- Text Styling --*/
+.text-orange {
+  color:#eb9622;
+}
+.text-darkgray{
+  color:#353433;
+}
+.text-white{
+  color:#fff;
+}
+
+
 /*-- Mobile --*/
