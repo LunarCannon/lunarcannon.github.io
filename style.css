@@ -1,3 +1,41 @@
+html, body{
+  height:100%;
+}
+
 body {
   font-family: Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction:column;
 }
+
+.content {
+    max-width:1170px;
+    width:100%;
+    margin:auto;
+    flex: 1 0 auto;
+}
+
+.footer {
+  max-width:1170px;
+  width:100%;
+  margin:auto;
+  flex-shrink: 0;
+}
+/*-- General styling --*/
+
+.text-center {
+  text-align:center;
+}
+
+.spacer-10 {
+  margin-top: 10px;
+}
+
+.spacer-20 {
+  margin-top: 20px;
+}
+
+.spacer-50 {
+  margin-top: 50px;
+}
+/*-- Mobile --*/
