@@ -9,47 +9,6 @@ body {
   background-color:#fff;
 }
 
-p{
-  font-size:1em;
-  color:#353433;
-}
-
-h1.feature-title{
-  font-family: 'Roboto Slab', Arial, sans-serif;
-  font-size: 4em;
-}
-
-h3.featured-subtitle{
-  font-family: 'Roboto Slab', Arial, sans-serif;
-  font-size:1.7em;
-}
-
-.button {
-  padding:10px 20px;
-  background-color:#eb9622;
-  color:#fff;
-  font-weight:400;
-  transition: all 0.2s ease;
-}
-.button:hover{
-  text-decoration:none;
-  background-color:#c37a15;
-  color:#fff;
-  transition: all 0.2s ease;
-}
-
-.button-gray{
-  background-color:#bbb;
-}
-.button-gray:hover{
-  background-color:#eee;
-}
-
-.feature-type{
-  font-size:1.15em;
-  font-weight:300;
-  text-align:justify;
-}
 .content {
     max-width:1170px;
     width:100%;
@@ -58,11 +17,8 @@ h3.featured-subtitle{
 }
 
 .content-container{
-  position: absolute;
-  top:calc(40% - 2em);
-
-  max-width:1170px;
-  width:100%;
+  position: sticky;
+  top:calc(30% - 2em);
 
 }
 
@@ -110,6 +66,29 @@ h3.featured-subtitle{
 }
 
 /*-- Text Styling --*/
+
+p{
+  font-size:1em;
+  color:#353433;
+}
+
+h1.feature-title{
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-size: 4em;
+  padding-bottom: 10px;
+}
+
+h3.featured-subtitle{
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-size:1.7em;
+}
+
+.feature-type{
+  font-size:1.15em;
+  font-weight:300;
+  text-align:justify;
+}
+
 .text-orange {
   color:#eb9622;
 }
@@ -120,5 +99,65 @@ h3.featured-subtitle{
   color:#fff;
 }
 
+/*-- Form Shit --*/
+
+input.contact-email, textarea.contact-message{
+  width:100%;
+  padding:5px 10px;
+  margin: 10px 0px;
+  border-radius:3px;
+  border: 1px solid #ddd;
+}
+
+.button-default {
+  padding:10px 20px;
+  background-color:#eb9622;
+  color:#fff;
+  font-weight:400;
+  min-width:150px;
+  border:none;
+  transition: all 0.2s ease;
+}
+
+.button-default:hover, .button-default:not(:disabled):not(.disabled):active, .button-default:focus{
+  text-decoration:none;
+  background-color:#c37a15;
+  color:#fff;
+  transition: all 0.2s ease;
+  box-shadow:none;
+}
+
+.button-gray{
+  padding:10px 20px;
+  text-decoration:none;
+  background-color:#bbb;
+  color:#fff;
+  transition: all 0.2s ease;
+  box-shadow:none;
+}
+
+.button-gray:hover{
+  text-decoration:none;
+  background-color:#eee;
+  color:#fff;
+  transition: all 0.2s ease;
+  box-shadow:none;
+}
 
 /*-- Mobile --*/
+
+@media only screen and (max-width:768px){
+
+  .btn {
+    width:100%;
+  }
+  .content-container{
+    position: inherit;
+    top:auto;
+  }
+
+  .spacer-50{
+    margin-top:20px;
+  }
+
+}
