@@ -18,7 +18,7 @@ body {
 
 .content-container{
   position: sticky;
-  top:calc(30% - 2em);
+  top:calc(20% - 2em);
 
 }
 
@@ -33,6 +33,15 @@ body {
   flex-shrink: 0;
   color:#fff;
   background-color:#353433;
+}
+.footer-attribution{
+  font-size: 0.75em;
+  line-height: 1.6em;
+  clear:both;
+}
+.footer-col-right{
+  float:right;
+  text-align:right;
 }
 
 /*-- General styling --*/
@@ -98,7 +107,42 @@ h3.featured-subtitle{
 .text-white{
   color:#fff;
 }
+.text-red{
+  color:#b51d1d;
+}
 
+a {
+  color:#eb9622;
+  text-decoration:none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color:#c37a15;
+  text-decoration:none;
+  transition: all 0.2s ease;
+}
+
+a.footer-links{
+  color:#fff;
+  text-decoration:none;
+  transition: all 0.2s ease;
+}
+
+a.footer-links:hover{
+  color:#eb9622;
+  text-decoration:none;
+  transition: all 0.2s ease;
+}
+
+.crypto-button{
+  background-color:#353433;
+  color:#fff;
+  padding:10px 5px;
+  border-radius: 3px;
+  text-align:center;
+  border: 2px solid #4c4b4b;
+}
 /*-- Form Shit --*/
 
 input.contact-email, textarea.contact-message{
@@ -147,6 +191,30 @@ input.contact-email, textarea.contact-message{
 /*-- Mobile --*/
 
 @media only screen and (max-width:768px){
+  .content{
+    margin:0px auto;
+  }
+  h1.feature-title{
+    text-align:center;
+    font-size:3em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .featured-subtitle{
+    text-align:center;
+  }
+
+  .footer-content{
+    text-align:center;
+  }
+  .footer-col-right{
+    float:none;
+    text-align:center;
+  }
+
+  .mobile-sep{
+    border-bottom: 1px solid #ddd;
+  }
 
   .btn {
     width:100%;
