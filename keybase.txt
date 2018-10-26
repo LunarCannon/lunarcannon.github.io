@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tikawamoto
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lunarcannon.com
+  * I am tikawamoto (https://keybase.io/tikawamoto) on keybase.
+  * I have a public key ASBrUDu-e0VYimOZoPBExXBpDdSSeeMD0AhuFvq6hNhAnQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206b503bbe7b45588a6399a0f044c570690dd49279e303d0086e16faba84d8409d0a",
+      "host": "keybase.io",
+      "kid": "01206b503bbe7b45588a6399a0f044c570690dd49279e303d0086e16faba84d8409d0a",
+      "uid": "dd3b71075b9f791aa83e1cf6163e4219",
+      "username": "tikawamoto"
+    },
+    "merkle_root": {
+      "ctime": 1540564595,
+      "hash": "43b9fae24fbe47062a71069b6bcc7835e4176e5b3e5b6f3291b22b464d4e3195598f82f8075d97cd0096320106a9cc01456405a34dfec3442f57cd76121211c5",
+      "hash_meta": "3bd2ca6fe6b6abe2344305cae2394c74761689468ea2170c4a27d87192b5d287",
+      "seqno": 3854313
+    },
+    "service": {
+      "entropy": "ywZLR/LekSJoV4pdYdd/WGiG",
+      "hostname": "lunarcannon.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.8.0"
+  },
+  "ctime": 1540564615,
+  "expire_in": 504576000,
+  "prev": "6b51662ea24d8f2c3291100539929bd237437178119f8f7cd963cbdd9339a8ea",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEga1A7vntFWIpjmaDwRMVwaQ3UknnjA9AIbhb6uoTYQJ0Kp3BheWxvYWTESpcCB8Qga1FmLqJNjywykRAFOZKb0jdDcXgRn4982WPL3ZM5qOrEIAEFlwZ5kFBxs4fZh1HjBdotirdbJZp34HYrrO/3/BUPAgHCo3NpZ8RAPd3M20m5F8Q4cYdrVXKozyCL7AZgC94wy7NIM+WaUp9ps3P6FWd58L7K9KISXiDvzi3S94RjCmRwy+G3DabkC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDGBKMEmeQ/Chi7Jl79QXCV0rTBBm0N7n3iZMo1vnDyVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tikawamoto
+
+==================================================================
