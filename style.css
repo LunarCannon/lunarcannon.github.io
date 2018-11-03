@@ -87,6 +87,18 @@ h1.feature-title{
   padding-bottom: 10px;
 }
 
+h1.feature-title-sm{
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+
+h2.featured-subtitle{
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-size:2em;
+}
+
 h3.featured-subtitle{
   font-family: 'Roboto Slab', Arial, sans-serif;
   font-size:1.7em;
@@ -143,6 +155,14 @@ a.footer-links:hover{
   text-align:center;
   border: 2px solid #4c4b4b;
 }
+
+.navlinks {
+    background-color: #eee;
+    padding: 15px 0;
+    margin: auto;
+    font-weight: bold;
+}
+
 /*-- Form Shit --*/
 
 input.contact-email, textarea.contact-message{
