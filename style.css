@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction:column;
   background-color:#fff;
+  overflow-x:hidden;
 }
 
 .content {
@@ -20,6 +21,18 @@ body {
   position: sticky;
   top:calc(20% - 2em);
 
+}
+
+.band-container {
+  padding: 60px 40px;
+  margin: 20px 0px;
+}
+.band-gray{
+  background-color:#eee;
+}
+
+.element-border{
+  border: 13px #eee solid;
 }
 
 /*-- Footer --*/
@@ -160,6 +173,7 @@ a.footer-links:hover{
     background-color: #eee;
     padding: 15px 0;
     margin: auto;
+    border-radius: 10px;
     font-weight: bold;
 }
 
@@ -214,6 +228,11 @@ input.contact-email, textarea.contact-message{
   .content{
     margin:0px auto;
   }
+  .band-container {
+    margin:0px 0px;
+    padding: 60px 10px;
+  }
+
   h1.feature-title{
     text-align:center;
     font-size:3em;
@@ -247,5 +266,6 @@ input.contact-email, textarea.contact-message{
   .spacer-50{
     margin-top:20px;
   }
+
 
 }
