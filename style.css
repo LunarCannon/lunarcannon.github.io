@@ -51,6 +51,10 @@ body {
   margin-right: 60px;
 }
 
+.logo-roll{
+  padding:20px 20px;
+}
+
 /*-- Footer --*/
 .footer-content{
   max-width:1170px;
@@ -141,6 +145,9 @@ h3.featured-subtitle{
 
 .text-orange {
   color:#eb9622;
+}
+.text-gray{
+  color:#888;
 }
 .text-darkgray{
   color:#353433;
