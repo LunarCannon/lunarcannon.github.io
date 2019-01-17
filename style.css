@@ -31,6 +31,10 @@ body {
 
 }
 
+.bg-light{
+  background-color:#fff !important;
+}
+
 .band-container {
   padding: 60px 40px;
   margin: 20px 0px;
