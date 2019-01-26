@@ -122,9 +122,20 @@ body {
 .vid-popup {
   height:100%;
   min-height:200px;
-  min-width:400px;
   background-color:#fff;
   border-radius:20px;
+}
+.close-icon{
+  font-size:40px;
+  color:#eb9622;
+  transition: 0.5s ease;
+}
+.close-icon:hover{
+  color:#c37a15;
+  transition: 0.5s ease;
+}
+.close-vid{
+  text-align:right;
 }
 
 /*-- Text Styling --*/
