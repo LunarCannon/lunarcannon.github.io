@@ -11,6 +11,7 @@ body {
   overflow-x:hidden;
 }
 
+/* Containers */
 .content {
     max-width:1170px;
     width:100%;
@@ -42,6 +43,8 @@ body {
 .band-gray{
   background-color:#eee;
 }
+
+/* Top Elements */
 
 .element-border{
   border: 13px #ddd solid;
@@ -75,6 +78,7 @@ body {
 .text-box-fade{
   opacity:0;
 }
+
 /*-- Footer --*/
 .footer-content{
   max-width:1170px;
@@ -83,9 +87,11 @@ body {
   padding:20px 0px 20px;
 }
 .footer {
+  position:relative;
   flex-shrink: 0;
   color:#fff;
   background-color:#353433;
+  opacity:0;
 }
 .footer-attribution{
   font-size: 0.75em;
@@ -114,6 +120,28 @@ body {
 .spacer-50 {
   margin-top: 50px;
 }
+
+/* Home JS Stuff */
+.hey-text{
+  position:relative;
+  top:10px;
+  opacity:0;
+}
+.lc-logo-home{
+  position:relative;
+  top:10px;
+  opacity:0;
+}
+.text-move-right{
+  position:relative;
+  left:-20px;
+  opacity:0;
+}
+.box-1, .box-2{
+  opacity:0;
+}
+
+/* Marketing Page JS Stuff */
 
 .content-block-l{
   padding:0px 25px 0px 15px;
@@ -282,7 +310,7 @@ a.footer-links:hover{
   transition: all 0.2s ease;
 }
 
-.crypto-button{
+.bitcoin-button{
   background-color:#353433;
   color:#fff;
   padding:10px 5px;
