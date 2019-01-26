@@ -155,6 +155,14 @@ body {
   opacity:0.8;
 
 }
+.vid-popup-title{
+  float:left;
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-size:1.7em;
+  transition: 0.5s ease;
+  text-align:left;
+  padding-top: 5px;
+}
 #popup-bg{
   position:fixed;
   width:100%;
@@ -325,6 +333,10 @@ input.contact-email, textarea.contact-message{
 /*-- Mobile --*/
 
 @media only screen and (max-width:768px){
+  .vid-popup-title{
+    font-size:1.2em;
+    width:80%;
+  }
   .vid-popup{
     top:25%;
     width:95%;
