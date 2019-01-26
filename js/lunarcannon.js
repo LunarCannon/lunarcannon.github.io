@@ -84,5 +84,5 @@ if(theURL.includes("marketing")){
   $('.text-move-right').delay(200).animate({opacity:1, left:"+=20px"},800, "easeInOutQuint");
   $('.box-1').css("top","-10px").delay(250).animate({opacity:1, top:"+=10px"},1000, "easeInOutQuint");
   $('.box-2').css("top","-10px").delay(300).animate({opacity:1, top:"+=10px"},1000, "easeInOutQuint");
-  $('.footer').delay(300).animate({opacity:1},800, "easeInOutQuint");
+  $('.footer').css("opacity",0).delay(300).animate({opacity:1},800, "easeInOutQuint");
 }

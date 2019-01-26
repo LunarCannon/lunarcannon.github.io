@@ -87,11 +87,9 @@ body {
   padding:20px 0px 20px;
 }
 .footer {
-  position:relative;
   flex-shrink: 0;
   color:#fff;
   background-color:#353433;
-  opacity:0;
 }
 .footer-attribution{
   font-size: 0.75em;
