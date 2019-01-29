@@ -7,7 +7,17 @@ if(theURL.includes("marketing")){
 
   $('.lc-circle-logo').animate({opacity:1, top: "-=35px"}, 800, "easeInOutQuint");
   $('.text-box-fade').animate({opacity:1}, 800, "easeInOutQuint");
-  $('.fade-text').delay(50).animate({opacity:1, top: "-=10px"}, 500, "easeInOutQuint");
+  $('.fade-text').css("rotate","0deg").delay(50).animate({opacity:1, top: "-=10px"}, 500, "easeInOutQuint", function(){
+    $('.heart-anim').delay(400).animate({deg: 35},{duration: 400, step: function(now) {
+        $(this).css({color:"#ab4545", transform: 'rotate(' + now + 'deg)'});
+      }
+    }).delay(700).animate({deg:0},{duration:460, step: function(now){
+      $('.heart-anim').css({color:"#888", transform: 'rotate(' + now + 'deg)'});
+    }});
+  });
+
+
+
   $('.logo-roll').delay(600).animate({opacity:1, top: "-=10px"}, 800, "easeInOutQuint");
 
   $('.vid-thm img, .vid-element h3').mouseover().css("cursor","pointer");

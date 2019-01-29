@@ -75,6 +75,11 @@ body {
   top:10px;
   position:relative;
 }
+
+.heart-anim{
+
+}
+
 .text-box-fade{
   opacity:0;
 }
