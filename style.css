@@ -45,6 +45,10 @@ body {
 }
 
 /* Top Elements */
+.sm-navbar{
+  width:200px;
+  margin-bottom: -10px;
+}
 
 .element-border{
   border: 13px #ddd solid;
