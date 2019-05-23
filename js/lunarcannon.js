@@ -41,7 +41,7 @@ if(theURL.includes("marketing")){
         $('.vid-embed').append('<iframe src="https://www.youtube.com/embed/yo6PT3rLDOQ?autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
       } else if(selectedVid == 2){
         popupFadeIn(vidTitle);
-        $('.vid-embed').append('<iframe src="https://www.youtube.com/embed/ljMeCBNpreg?autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+        $('.vid-embed').append('<iframe src="https://www.youtube.com/embed/gRWB_b9dkIg?autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
       } else if(selectedVid == 3){
         popupFadeIn(vidTitle);
         $('.vid-embed').append('<iframe src="https://www.youtube.com/embed/LTCvCgB8P8k?autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
